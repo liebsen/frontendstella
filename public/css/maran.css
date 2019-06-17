@@ -1,0 +1,45 @@
+.rojito {
+	font-family: 'Oswald';
+	color: rgb(217, 1, 22);
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.negrita {
+	font-family: 'Oswald';
+	font-weight: bolder;
+	text-transform: uppercase;
+	line-height: 32px;
+	margin-bottom: 13px
+}
+
+.gris {
+	font-family: 'Oswald';
+	font-weight: 300 !important;
+	text-transform: uppercase;
+	line-height: 10px
+}
+
+.chefPhoto{
+  background: inherit;
+  background-size: cover;
+  background-position: 50%;
+}
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
