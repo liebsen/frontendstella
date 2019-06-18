@@ -98,6 +98,10 @@
   transition: color .75s linear;
 }
 
+.menu-items a.active {
+  color: #d90117;
+}
+
 .menu-items a:not(.button):hover {
   color: #d90117;
 }

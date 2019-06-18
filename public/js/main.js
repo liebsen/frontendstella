@@ -40,7 +40,13 @@ $(document).ready(function(){
         fixedContentPos: false
     });
 
+    $('.ajax-btn').magnificPopup({
+      type: 'ajax'
+    });
+
     $('#mc_embed_signup').find('form').ajaxChimp();
+    $('.menu-links a').removeClass('active')
+    $('.menu-links a[href="' + location.pathname + '"]').addClass('active')
 
     setTimeout(() => {
         $('.spinner-outer').fadeOut('fast',() => {
