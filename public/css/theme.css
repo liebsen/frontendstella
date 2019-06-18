@@ -2,8 +2,11 @@
   opacity: 0;
 }
 
-/* menu */
+.margin-auto {
+  margin: 0 auto;
+}
 
+/* menu */
 
 .menu, .menu-bg, .menu-burger {
   position: absolute;
@@ -12,8 +15,8 @@
   font-size: 28px;
   text-align: center;
   border-radius: 100%;
-  right: 1.25rem;
-  top: 2.75rem;
+  right: 1.5rem;
+  top: 2.35rem;
   z-index: 9;
 }
 
@@ -64,7 +67,7 @@
   opacity: 0;
   -webkit-transition: .4s;
   transition: .4s;
-  margin-top: 250px;
+  margin-top: 400px;
   margin-left: -2.25rem;
   -webkit-transform: translateY(-200%);
           transform: translateY(-200%);

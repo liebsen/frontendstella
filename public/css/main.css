@@ -2015,7 +2015,8 @@ nav a:hover {
 }
 
 .logo img {
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
   max-height: 50px;
 }
 .section-gap {
@@ -6436,7 +6437,7 @@ nav a:hover {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;}
+  background-size: cover;}
 
 
 /*** VIDEO MOBILE ****/
@@ -6452,4 +6453,4 @@ nav a:hover {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;}
+  background-size: cover;}
