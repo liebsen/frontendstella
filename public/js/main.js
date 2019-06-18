@@ -1,6 +1,8 @@
 
 $(document).ready(function(){
 	"use strict";
+
+    var youtube_url = ''
     window_resize()
      
      // -------   Active Mobile Menu-----//
@@ -38,14 +40,14 @@ $(document).ready(function(){
         fixedContentPos: false
     });
 
-
     $('#mc_embed_signup').find('form').ajaxChimp();
 
     setTimeout(() => {
         $('.spinner-outer').fadeOut('fast',() => {
             $('.loading').fadeTo('slow',1) 
+            $('.dup-body').css({'overflow':'auto'})
         })        
-    },2000)
+    },500)
 });
 
 $(window).on('resize', function(){
@@ -64,7 +66,6 @@ window_resize = () => {
     header_height_static = $(".site-header.static").outerHeight(),
     fitscreen            = window_height - header_height;
 
-    console.log(window_height)
     $(".fullscreen").css("height", window_height)
     $(".fitscreen").css("height", fitscreen);
 }

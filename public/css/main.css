@@ -58,7 +58,7 @@ body {
   position: relative;
 }
 
-img {
+img, iframe {
   max-width: 100%;
 }
 
@@ -1053,6 +1053,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (min-width: 767px) {
+  .skill-content {
+    margin-left: -20px;
+  }
+  .youtube {
+    padding: 40px;
+  }
+}
+
 .progress-table {
   background: #f9f9ff;
   padding: 15px 0px 30px 0px;
@@ -1942,12 +1951,42 @@ nav a:hover {
 .dup-body {
 	background-image: url(https://t3.ftcdn.net/jpg/01/44/51/06/240_F_144510680_zr2LRn2hGOvojKkUgfTQiGaLCfTcrBPg.jpg);
 	background-repeat: repeat;
+  overflow-y: hidden;
 }
 
 .dup-body-wrap {
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.2);
   margin: 50px;
   position: relative;
+}
+
+.container-chefs {
+  width: 100%;
+}
+
+.container-chefs .carousel-content {
+  margin-top: 7%
+}
+
+.container-chefs h1 {
+  font-family: 'Oswald'; 
+  font-weight: bolder; 
+  text-transform: uppercase; 
+  line-height: 32px; 
+  margin-bottom: 13px;
+}
+
+.container-chefs h2 {
+  font-family: 'Oswald'; 
+  font-weight: 300 !important; 
+  text-transform: uppercase; 
+  line-height: 10px;
+}
+
+.img-fluid-chefs {
+  max-width: 100%;
+  height: auto;
+  background-size: contain;
 }
 
 @media (max-width: 767px) {
@@ -2189,6 +2228,9 @@ nav a:hover {
   font-size: 16px;
 }
 
+.bottom-tiles {
+  background-color: white;
+}
 @media (max-width: 991px) {
   .generic-banner .banner-content p br {
     display: none;
@@ -2344,6 +2386,11 @@ nav a:hover {
 
 .skill-area {
   background: #fff;
+  padding: 30px;
+}
+
+.skill-area-inner {
+  border: 1.5px solid rgb(212,175,55); 
 }
 
 .skill-area2 {
@@ -2354,6 +2401,23 @@ nav a:hover {
 .skill-area .skill-content h2 {
   margin-bottom: 5px;
 }
+
+.skill-content img {
+  margin-bottom: 0.5%
+}
+.skill-content p {
+  padding-right: 40px; text-align: justify
+}
+
+.skill-area .skill-content h3 {
+  font-family: 'Oswald'; 
+  font-weight: 300 !important; 
+  text-transform: uppercase; 
+  line-height: 40px; 
+  color: rgb(212,175,55); 
+  margin-top: 10%
+}
+
 
 @media (max-width: 991px) {
   .total-progress-bar {
