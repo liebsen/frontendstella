@@ -15,8 +15,8 @@
   font-size: 28px;
   text-align: center;
   border-radius: 100%;
-  right: 2.5rem;
-  top: 3.5rem;
+  right: 1rem;
+  top: 1.75rem;
   z-index: 9;
 }
 
@@ -386,4 +386,18 @@
   0%{opacity:0}
   80%{opacity:0}
   100%{opacity:1}
+}
+
+@media (min-width: 1199px) {
+  .menu-burger {
+    margin-right: 2rem!important;
+    margin-top: 2.75rem!important;
+  }
+}
+
+@media (min-width: 767px) {
+  .menu-burger {
+    margin-right: 1rem;
+    margin-top: 1.75rem;
+  }
 }

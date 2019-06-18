@@ -1960,12 +1960,33 @@ nav a:hover {
   position: relative;
 }
 
+.event-status {
+  font-family: 'Oswald'; 
+  color: rgb(217,1,22); 
+  text-transform: uppercase; 
+  font-weight: 100;
+}
+
+.event-options {
+  padding-top: 1rem;
+}
+
+.event-options p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.event-options img {
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
 .container-chefs {
   width: 100%;
 }
 
 .container-chefs .carousel-content {
-  margin-top: 7%
+  padding-top: 7%;
 }
 
 .container-chefs h1 {
@@ -2005,7 +2026,6 @@ nav a:hover {
   .container {
     padding: 0 30px;
   }
-	
 }
 
 @media (max-width: 767px) {
@@ -2015,9 +2035,21 @@ nav a:hover {
 }
 
 .logo img {
-  margin-top: 35px;
   max-height: 50px;
 }
+
+@media (min-width: 1199px) {
+  .logo img {
+    margin-top: 35px!important;
+  }
+}
+
+@media (min-width: 767px) {
+  .logo img {
+    margin-top: 15px;
+  }
+}
+
 .section-gap {
   padding: 120px 0;
 }
@@ -2165,6 +2197,25 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
+.newsletter .col-lg-6:nth-child(1) {
+  text-align: right;
+}
+
+.newsletter .col-lg-6:nth-child(2) {
+  text-align: left;
+}
+
+.newsletter h1 {
+  font-family: 'Oswald';
+}
+
+.newsletter p {
+  margin-top: 10px; 
+  font-size: 15px; 
+  line-height: 18px; 
+  font-family: "Oswald";
+}
+
 @media (max-width: 991px) {
   .banner-content h1 {
     font-size: 36px;
@@ -2172,10 +2223,15 @@ nav a:hover {
 }
 
 @media (max-width: 991px) {
+  .newsletter .col-lg-6:nth-child(1) {
+    text-align: left;
+  }
+
   .banner-content h1 br {
     display: none;
   }
 }
+
 
 .banner-content p {
   margin-bottom: 20px;
@@ -2231,12 +2287,13 @@ nav a:hover {
 .bottom-tiles {
   background-color: white;
 }
+
 @media (max-width: 991px) {
   .generic-banner .banner-content p br {
     display: none;
   }
-  .bottom-tiles .col-md-3:nth-child(n+5) {
-     display: none;
+  .bottom-tiles .col-3:nth-child(n+5) {
+    display: none;
   }
 }
 
@@ -2446,6 +2503,7 @@ nav a:hover {
 
 .active-bottle-carousel {
   position: relative;
+  padding-bottom: 3rem;
 }
 
 .active-bottle-carousel .carousel-thumb {
@@ -2459,14 +2517,14 @@ nav a:hover {
 
 @media (max-width: 1199px) {
   .active-bottle-carousel .carousel-content {
-    padding-right: 30px;
+    /*padding-right: 30px;*/
   }
 }
 
 @media (max-width: 767px) {
   .active-bottle-carousel .carousel-content {
-    margin-top: 50px;
-    padding-right: 0;
+    /*margin-top: 50px;
+    padding-right: 0;*/
   }
 }
 
