@@ -15,8 +15,8 @@
   font-size: 28px;
   text-align: center;
   border-radius: 100%;
-  right: 1.5rem;
-  top: 2.35rem;
+  right: 2.5rem;
+  top: 3.5rem;
   z-index: 9;
 }
 
@@ -67,7 +67,7 @@
   opacity: 0;
   -webkit-transition: .4s;
   transition: .4s;
-  margin-top: 400px;
+  margin-top: 350px;
   margin-left: -2.25rem;
   -webkit-transform: translateY(-200%);
           transform: translateY(-200%);
@@ -83,9 +83,11 @@
 .menu-links {
   padding: 1rem;
 }
+
 .menu-items {
   font-family: 'Oswald'; 
 }
+
 .menu-items a:not(.button) {
   font-size: 25px;
   text-transform: uppercase; 
@@ -93,8 +95,12 @@
   line-height: 2rem;
   color: #777878;
   display: block;
+  transition: color .75s linear;
 }
 
+.menu-items a:not(.button):hover {
+  color: #d90117;
+}
 .menu-items img{
   max-width: 20rem;
 }
