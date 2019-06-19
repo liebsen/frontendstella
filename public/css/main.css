@@ -1971,6 +1971,16 @@ nav a:hover {
   padding-top: 1rem;
 }
 
+.event-options .col-3 {
+  padding-right: 5px !important; 
+  padding-left: 5px !important
+}
+
+.event-options .row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .event-options p {
   text-align: center;
   font-size: 12px;
@@ -2045,7 +2055,7 @@ nav a:hover {
   text-transform: uppercase; 
   line-height: 25px;
   margin-bottom: 5px;
-  margin-top: -20px;
+  margin-top: -25px;
 }
 
 .container-chefs h5 {
@@ -2275,6 +2285,13 @@ nav a:hover {
 }
 
 @media (max-width: 767px) {
+  .banner-area .rounded-circle {
+    width: 280px;
+    height:280px;
+  }
+  .single-address {
+    margin-bottom: 3rem;
+  }
 }
 
 @media (max-width: 767px) {
