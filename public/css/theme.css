@@ -1,14 +1,28 @@
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
   overflow-y: scroll;
-
 }
+
+.has-background-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .loading {
   opacity: 0;
 }
 
 .margin-auto {
   margin: 0 auto;
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  margin: 10px auto;
 }
 
 /* menu */
@@ -72,7 +86,7 @@ html {
   opacity: 0;
   -webkit-transition: .4s;
   transition: .4s;
-  margin-top: 130px;
+  top: 30px;
   margin-left: -2rem;
   -webkit-transform: translateY(-200%);
           transform: translateY(-200%);

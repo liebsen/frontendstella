@@ -2040,12 +2040,12 @@ nav a:hover {
 }
 
 .container-chefs h3 {
-    font-family: 'Oswald'; 
-    font-weight: bolder; 
-    text-transform: uppercase; 
-    line-height: 30px; 
-    margin-bottom: 5px; 
-    margin-top: -35px
+  font-family: 'Oswald'; 
+  font-weight: bolder; 
+  text-transform: uppercase; 
+  line-height: 25px;
+  margin-bottom: 5px;
+  margin-top: -20px;
 }
 
 .container-chefs h5 {
@@ -2230,6 +2230,48 @@ nav a:hover {
 
 .banner-area {
   background: #fff;
+}
+
+.section-chefs > .container > .row {
+  padding-top: 80px;
+}
+
+.section-chefs h1 em {
+  font-weight: 100;
+  color: rgb(217,1,22);
+}
+
+.section-chefs h1 span {
+  font-family: 'Oswald'; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  color: black;
+}
+
+.section-chefs p {
+  font-family: 'Karla'
+}
+
+.section-chefs .info {
+  padding-top: 1rem;
+}
+
+.section-chefs .info h1 {
+  font-weight: 100; 
+  color: rgb(217,1,22)
+}
+
+.section-chefs .info h4 {
+  font-family:'Oswald'; 
+  font-weight: bold; 
+  margin-top: -0.5rem;
+  text-transform: uppercase; 
+  color: black;
+}
+
+.banner-area .rounded-circle {
+  width: 120px;
+  height:120px;
 }
 
 @media (max-width: 767px) {
