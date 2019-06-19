@@ -1,3 +1,8 @@
+html {
+    overflow-x: hidden;
+  overflow-y: scroll;
+
+}
 .loading {
   opacity: 0;
 }
@@ -67,8 +72,8 @@
   opacity: 0;
   -webkit-transition: .4s;
   transition: .4s;
-  margin-top: 350px;
-  margin-left: -2.25rem;
+  margin-top: 130px;
+  margin-left: -2rem;
   -webkit-transform: translateY(-200%);
           transform: translateY(-200%);
   pointer-events: none;
