@@ -2349,8 +2349,7 @@ nav a:hover {
 
 .m-0 {
   color: black; 
-  font-family: Oswald; 
-  text-align: left; 
+  font-family: "Oswald"; 
   text-transform: uppercase
 }
 
@@ -2736,6 +2735,7 @@ nav a:hover {
 
 .footer-widget-area {
   position: relative;
+  padding: 10px 30px;
 	background-color: #fff;
 }
 
